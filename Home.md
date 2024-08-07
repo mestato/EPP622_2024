@@ -61,8 +61,11 @@ ssh username@sphinx.ag.utk.edu
     * Command to download data for command line lessons:
 
 First, make sure you're in your home directory:
+
 ```/home/your_utk_username```
-Next get the files
+
+Next get the files:
+
 ```wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip```
 
 * Reading: 

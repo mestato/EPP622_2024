@@ -54,9 +54,16 @@ ssh username@sphinx.ag.utk.edu
 * Lab: 
   * [[Get on Sphinx]]
   * [[Getting started with PowerShell (Windows users)]]
-  * [SWC 1](https://swcarpentry.github.io/shell-novice/01-intro/index.html) - [Introducing the Shell Slides](https://drive.google.com/file/d/1pDfChAkAnuB_9sHRkEIrxgDWMjQrcvOy/view?usp=sharing)
-  * [SWC 2](https://swcarpentry.github.io/shell-novice/02-filedir/index.html) - Navigating Files and Directories 
-    * Command to download data for command line lessons (make sure you're in your home directory (``/home/your_utk_username``)): ``wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip``
+  * [Introducing the Shell Slides](https://drive.google.com/file/d/1pDfChAkAnuB_9sHRkEIrxgDWMjQrcvOy/view?usp=sharing)
+  * Software Carpentry
+    * [Intro to the shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
+    * [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
+    * Command to download data for command line lessons:
+
+First, make sure you're in your home directory:
+```/home/your_utk_username```
+Next get the files
+```wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip```
 
 * Reading: 
   * [A brief history of bioinformatics](https://academic.oup.com/bib/article/20/6/1981/5066445) Gauthier et al 2019

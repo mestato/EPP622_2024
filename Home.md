@@ -54,7 +54,6 @@ ssh username@sphinx.ag.utk.edu
 * Lab: 
   * [[Get on Sphinx]]
   * [[Getting started with PowerShell (Windows users)]]
-  * [Introducing the Shell Slides](https://drive.google.com/file/d/1pDfChAkAnuB_9sHRkEIrxgDWMjQrcvOy/view?usp=sharing)
   * Software Carpentry
     * [Intro to the shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
     * [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
@@ -78,10 +77,9 @@ Next get the files:
 * In person and recorded.
 * Lab:
   * [Slides: Computers and HPCs](https://docs.google.com/presentation/d/1wo8OOqeOwEouIJNXpWHPEqkHpKTVYn58eYxT9pS7xxI/edit?usp=sharing)
-* [SWC 3](https://swcarpentry.github.io/shell-novice/03-create/index.html) - Working With Files and Directories (Ryan)
-* [Class & Lab Recording](https://utk.instructuremedia.com/embed/315d0907-a970-4281-a7a3-5548ad7ce1b0)
-* Reading
-  * [Why do Bioinformaticians Avoid Using Windows?](https://towardsdatascience.com/why-do-bioinformaticians-avoid-using-windows-c5acb034f63c)
+* Software Carpentry - [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) 
+* Reading, HPCs in Oak Ridge
+  * [Frontier](https://www.olcf.ornl.gov/frontier/)
 
 ### Class 3. Tuesday August 27 - Command Line III
 * In person and recorded.

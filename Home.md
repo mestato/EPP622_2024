@@ -50,6 +50,19 @@ ssh username@sphinx.ag.utk.edu
 
 ### Class 1. Tuesday August 20 - Command Line I
 * In person and recorded.
+* Slides - Bioinformatics - what is it and where did it come from?
+* Lab: 
+  * [[Get on Sphinx]]
+  * [[Getting started with PowerShell (Windows users)]]
+  * [SWC 1](https://swcarpentry.github.io/shell-novice/01-intro/index.html) - [Introducing the Shell Slides](https://drive.google.com/file/d/1pDfChAkAnuB_9sHRkEIrxgDWMjQrcvOy/view?usp=sharing)
+  * [SWC 2](https://swcarpentry.github.io/shell-novice/02-filedir/index.html) - Navigating Files and Directories 
+    * Command to download data for command line lessons (make sure you're in your home directory (``/home/your_utk_username``)): ``wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip``
+
+* Reading: 
+  * [A brief history of bioinformatics](https://academic.oup.com/bib/article/20/6/1981/5066445) Gauthier et al 2019
+  * [How Margaret Dayhoff Brought Modern Computing to Biology](https://www.smithsonianmag.com/science-nature/how-margaret-dayhoff-helped-bring-computing-scientific-research-180971904/) - McNeill, Smithsonian 2019
+* Book Recommendation: [Bioinformatics Data Skills: Reproducible and Robust Research with Open Source Tools](https://www.amazon.com/Bioinformatics-Data-Skills-Reproducible-Research/dp/1449367372/ref=asc_df_1449367372/?tag=hyprod-20&linkCode=df0&hvadid=312130957577&hvpos=&hvnetw=g&hvrand=2428639128252987670&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9013452&hvtargid=pla-458238281452&psc=1) Buffalo 2019
+
 
 ### Class 2. Thursday August 22 - Command Line II
 * In person and recorded.

@@ -50,7 +50,7 @@ ssh username@sphinx.ag.utk.edu
 
 ### Class 1. Tuesday August 20 - Command Line I
 * In person and recorded.
-* Slides - Bioinformatics - what is it and where did it come from?
+* Slides - Bioinformatics - what is it and where did it come from? [old](https://docs.google.com/presentation/d/1sgBG19exSznuIj0HNufhdBB-A_SvysKIlbnXWsknYcg/edit#slide=id.p)
 * Lab: 
   * [[Get on Sphinx]]
   * [[Getting started with PowerShell (Windows users)]]

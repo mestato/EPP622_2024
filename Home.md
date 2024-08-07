@@ -47,5 +47,22 @@ ssh username@sphinx.ag.utk.edu
 29 | Tuesday | December 3 | FINAL PROJECT PRESENTATIONS | In person. Attendance required.
 
 
+### Class 1. Tuesday August 20 - Command Line I
+* In person and recorded.
 
+### Class 2. Thursday August 22 - Command Line II
+* In person and recorded.
+
+### Class 3. Tuesday August 27 - Command Line III
+* In person and recorded.
+
+### Class 4. Thursday August 29 - Command Line IV
+* In person and recorded.
+
+### Class 5. Tuesday September 3 - Command Line V
+* In person and recorded.
+* Test 1 distributed. (TEST 1 Due at midnight on September 10th.)
+
+### Class 6. Thursday September 5 - No new material.
+* Optional work on Test 1 in class. TEST 1 Due at midnight on September 10th.
 

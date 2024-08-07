@@ -66,16 +66,39 @@ ssh username@sphinx.ag.utk.edu
 
 ### Class 2. Thursday August 22 - Command Line II
 * In person and recorded.
+* Lab:
+  * [Slides: Computers and HPCs](https://docs.google.com/presentation/d/1wo8OOqeOwEouIJNXpWHPEqkHpKTVYn58eYxT9pS7xxI/edit?usp=sharing)
+* [SWC 3](https://swcarpentry.github.io/shell-novice/03-create/index.html) - Working With Files and Directories (Ryan)
+* [Class & Lab Recording](https://utk.instructuremedia.com/embed/315d0907-a970-4281-a7a3-5548ad7ce1b0)
+* Reading
+  * [Why do Bioinformaticians Avoid Using Windows?](https://towardsdatascience.com/why-do-bioinformaticians-avoid-using-windows-c5acb034f63c)
 
 ### Class 3. Tuesday August 27 - Command Line III
 * In person and recorded.
+* Lecture:
+  * AgBioData Intro [Slides](https://docs.google.com/presentation/d/1lpFfg62PfzenpyyKFFH7ZG4QGg9cDhjQiMv7nuAylv8/edit?usp=sharing) & [Video](https://utk.instructuremedia.com/embed/1e4ed884-f2d6-48d1-bd69-7e886fb104fa)
+  * AgBioData Lesson 1 - Intro to Biological Databases and Repositories [Slides](https://docs.google.com/presentation/d/1k1uPpOOsCBghNjKzCEr98NaMPrVciMJzbdXveoIjyqs/edit?usp=sharing) & [Video](https://utk.instructuremedia.com/embed/1de95600-4feb-4cc0-8462-30b6f7d8ed8c)
+* [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) - Pipes and Filters (Allyson) [Video](https://utk.instructuremedia.com/embed/47389782-8161-4316-addd-d5b48dc01eaf)
+* Reading
+  * [The 40 Most-Used Linux Commands You Should Know](https://kinsta.com/blog/linux-commands/)
 
 ### Class 4. Thursday August 29 - Command Line IV
 * In person and recorded.
+* Sequence Alignment: [Slide](https://docs.google.com/presentation/d/1NecHweqYZ9HMICOp_YQnfKBCq_wmDiScjMQbIF_uFxE/edit?usp=sharing) & Video
+* [[Lab: BLAST and Diamond]] (Ryan)
+* [Class and Lab Recording](https://utk.instructuremedia.com/embed/6dc2c081-6348-4a8e-b3fc-3e952d9c550b)
+* Additional reading for learning more if you are interested:
+  * Buchfink et al. 2001 [Sensitive protein alignments at tree-of-life scale using DIAMOND](https://www.nature.com/articles/s41592-021-01101-x)
+  * Software Carpentry's [Regular Expressions for Biologists](https://carpentries-incubator.github.io/regex-novice-biology/index.html)
+  * [Diamond software & documentation](https://github.com/bbuchfink/diamond)
+
 
 ### Class 5. Tuesday September 3 - Command Line V
 * In person and recorded.
 * Test 1 distributed. (TEST 1 Due at midnight on September 10th.)
+* Slides: [Data Management](https://docs.google.com/presentation/d/1OqNMe2Pr_hDXOtaj1-0N3wKSEkjG0FQZQYe9Sdv9UQ0/edit?usp=sharing)
+* [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop/index.html) - Loops (Allyson)
+* [Class & Lab Recording](https://utk.instructuremedia.com/embed/b690e564-b2dd-4a26-95d0-d6a00c49b5a5)
 
 ### Class 6. Thursday September 5 - No new material.
 * Optional work on Test 1 in class. TEST 1 Due at midnight on September 10th.

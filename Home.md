@@ -11,7 +11,7 @@ ssh username@sphinx.ag.utk.edu
 ```
 
 ## Quick Schedule
-<google-sheets-html-origin><style type="text/css"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+
   |   |   | Topic | Class Format
 -- | -- | -- | -- | --
 1 | Tuesday | August 20 | Command Line I | In person and recorded.
@@ -46,6 +46,7 @@ ssh username@sphinx.ag.utk.edu
 28 | Thursday | November 28 | No Class | Thanksgiving
 29 | Tuesday | December 3 | FINAL PROJECT PRESENTATIONS | In person. Attendance required.
 
+## Full Schedule
 
 ### Class 1. Tuesday August 20 - Command Line I
 * In person and recorded.

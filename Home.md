@@ -1,7 +1,7 @@
 Welcome to EPP622, Fall 2024!
 --------------------------------------
 
-The purpose of this site is to provide a resource for students and instructors participating in the course. It's easier for me to update and build labs than Canvas.
+The purpose of this site is to provide a resource for students and instructors participating in the course. 
 
 [Syllabus Version 1](https://docs.google.com/document/d/1-FMBLeK94SaN2WR3EV2tai4k7xH_i_bF/edit?usp=sharing&ouid=117671002449312371819&rtpof=true&sd=true)
 
@@ -50,7 +50,7 @@ ssh username@sphinx.ag.utk.edu
 
 ### Class 1. Tuesday August 20 - Command Line I
 * In person and recorded.
-* Slides - Bioinformatics - what is it and where did it come from? [old](https://docs.google.com/presentation/d/1sgBG19exSznuIj0HNufhdBB-A_SvysKIlbnXWsknYcg/edit#slide=id.p)
+* Bioinformatics - what is it and where did it come from? [Slides](https://docs.google.com/presentation/d/1sgBG19exSznuIj0HNufhdBB-A_SvysKIlbnXWsknYcg/edit#slide=id.p)
 * Lab: 
   * [[Get on Sphinx]]
   * [[Getting started with PowerShell (Windows users)]]
@@ -86,13 +86,13 @@ Next get the files:
 * Lecture:
   * AgBioData Intro [Slides](https://docs.google.com/presentation/d/1lpFfg62PfzenpyyKFFH7ZG4QGg9cDhjQiMv7nuAylv8/edit?usp=sharing)
   * AgBioData Lesson 1 - Intro to Biological Databases and Repositories [Slides](https://docs.google.com/presentation/d/1k1uPpOOsCBghNjKzCEr98NaMPrVciMJzbdXveoIjyqs/edit?usp=sharing)
-* [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) - Pipes and Filters 
+* [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters 
 * Reading
   * [The 40 Most-Used Linux Commands You Should Know](https://kinsta.com/blog/linux-commands/)
 
 ### Class 4. Thursday August 29 - Command Line IV
 * In person and recorded.
-* Sequence Alignment: [Slide](https://docs.google.com/presentation/d/1NecHweqYZ9HMICOp_YQnfKBCq_wmDiScjMQbIF_uFxE/edit?usp=sharing) 
+* Sequence Alignment: [Slides](https://docs.google.com/presentation/d/1NecHweqYZ9HMICOp_YQnfKBCq_wmDiScjMQbIF_uFxE/edit?usp=sharing) 
 * [[Lab: BLAST and Diamond]] 
 * Additional reading for learning more if you are interested:
   * Buchfink et al. 2001 [Sensitive protein alignments at tree-of-life scale using DIAMOND](https://www.nature.com/articles/s41592-021-01101-x)
@@ -104,8 +104,7 @@ Next get the files:
 * In person and recorded.
 * Test 1 distributed. (TEST 1 Due at midnight on September 10th.)
 * Slides: [Data Management](https://docs.google.com/presentation/d/1OqNMe2Pr_hDXOtaj1-0N3wKSEkjG0FQZQYe9Sdv9UQ0/edit?usp=sharing)
-* [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop/index.html) - Loops (Allyson)
-* [Class & Lab Recording](https://utk.instructuremedia.com/embed/b690e564-b2dd-4a26-95d0-d6a00c49b5a5)
+* [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop.html) - Loops 
 
 ### Class 6. Thursday September 5 - No new material.
 * Optional work on Test 1 in class. TEST 1 Due at midnight on September 10th.

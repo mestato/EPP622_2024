@@ -3,7 +3,7 @@ Welcome to EPP622, Fall 2024!
 
 The purpose of this site is to provide a resource for students and instructors participating in the course. It's easier for me to update and build labs than Canvas.
 
-[Syllabus Version 1]()
+[Syllabus Version 1](https://docs.google.com/document/d/1-FMBLeK94SaN2WR3EV2tai4k7xH_i_bF/edit?usp=sharing&ouid=117671002449312371819&rtpof=true&sd=true)
 
 ## Quick Log In
 ```
@@ -84,17 +84,16 @@ Next get the files:
 ### Class 3. Tuesday August 27 - Command Line III
 * In person and recorded.
 * Lecture:
-  * AgBioData Intro [Slides](https://docs.google.com/presentation/d/1lpFfg62PfzenpyyKFFH7ZG4QGg9cDhjQiMv7nuAylv8/edit?usp=sharing) & [Video](https://utk.instructuremedia.com/embed/1e4ed884-f2d6-48d1-bd69-7e886fb104fa)
-  * AgBioData Lesson 1 - Intro to Biological Databases and Repositories [Slides](https://docs.google.com/presentation/d/1k1uPpOOsCBghNjKzCEr98NaMPrVciMJzbdXveoIjyqs/edit?usp=sharing) & [Video](https://utk.instructuremedia.com/embed/1de95600-4feb-4cc0-8462-30b6f7d8ed8c)
-* [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) - Pipes and Filters (Allyson) [Video](https://utk.instructuremedia.com/embed/47389782-8161-4316-addd-d5b48dc01eaf)
+  * AgBioData Intro [Slides](https://docs.google.com/presentation/d/1lpFfg62PfzenpyyKFFH7ZG4QGg9cDhjQiMv7nuAylv8/edit?usp=sharing)
+  * AgBioData Lesson 1 - Intro to Biological Databases and Repositories [Slides](https://docs.google.com/presentation/d/1k1uPpOOsCBghNjKzCEr98NaMPrVciMJzbdXveoIjyqs/edit?usp=sharing)
+* [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html) - Pipes and Filters 
 * Reading
   * [The 40 Most-Used Linux Commands You Should Know](https://kinsta.com/blog/linux-commands/)
 
 ### Class 4. Thursday August 29 - Command Line IV
 * In person and recorded.
-* Sequence Alignment: [Slide](https://docs.google.com/presentation/d/1NecHweqYZ9HMICOp_YQnfKBCq_wmDiScjMQbIF_uFxE/edit?usp=sharing) & Video
-* [[Lab: BLAST and Diamond]] (Ryan)
-* [Class and Lab Recording](https://utk.instructuremedia.com/embed/6dc2c081-6348-4a8e-b3fc-3e952d9c550b)
+* Sequence Alignment: [Slide](https://docs.google.com/presentation/d/1NecHweqYZ9HMICOp_YQnfKBCq_wmDiScjMQbIF_uFxE/edit?usp=sharing) 
+* [[Lab: BLAST and Diamond]] 
 * Additional reading for learning more if you are interested:
   * Buchfink et al. 2001 [Sensitive protein alignments at tree-of-life scale using DIAMOND](https://www.nature.com/articles/s41592-021-01101-x)
   * Software Carpentry's [Regular Expressions for Biologists](https://carpentries-incubator.github.io/regex-novice-biology/index.html)

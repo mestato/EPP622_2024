@@ -46,7 +46,7 @@ ssh username@sphinx.ag.utk.edu
 28 | Thursday | November 28 | No Class | Thanksgiving
 29 | Tuesday | December 3 | FINAL PROJECT PRESENTATIONS | In person. Attendance required.
 
-## OIT Isaac Trainings
+## OIT Bioinformatics Symposium and Isaac Trainings
 (Not required, just here for your information or if you want to get a jump start)
 
 * Introduction to ISAAC Resources (Open Enclave)
@@ -65,6 +65,10 @@ ssh username@sphinx.ag.utk.edu
   * Thursday, 8/29/2024 | 1:00 p.m.-2:00 p.m. ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=1334)
   * Friday, 9/6/2024 | 9:00 a.m.-noon ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=1334)
 
+* UT Bioinformatics Symposium
+This annual event that brings together bioinformatics researchers from across the UT campuses. This one-day event will feature panel discussions among leaders in cutting-edge bioinformatics and computational biology research. Coffee and a complimentary lunch will be provided. We’d love for you to participate and contribute your voice to this discussion!
+
+Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bioinformatics-computing-support/bioinformatics-symposium-2024/) for more details.
 
 ## Full Schedule
 

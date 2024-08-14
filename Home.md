@@ -46,6 +46,26 @@ ssh username@sphinx.ag.utk.edu
 28 | Thursday | November 28 | No Class | Thanksgiving
 29 | Tuesday | December 3 | FINAL PROJECT PRESENTATIONS | In person. Attendance required.
 
+## OIT Isaac Trainings
+(Not required, just here for your information or if you want to get a jump start)
+
+* Introduction to ISAAC Resources (Open Enclave)
+  * Tuesday, August 27, 2024 | 10:00 a.m.-11:00 a.m. ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=801)
+
+* Running Jobs on ISAAC Resources
+  * Tuesday, August 27, 2024 | 1:00 p.m.-2:00 p.m. ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=879)
+
+* ISAAC GPU Computing
+  * Thursday, 8/29/2024 | 10:00 a.m.-11:00 a.m. ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=876)
+
+* Web Browser-Based Access to ISAAC with Open OnDemand
+  * Friday, 08/30/24 | 10:00 a.m.-11:00 a.m. ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=1335)
+
+* Fundamentals of HPC for Bioinformatics: Orientation to ISAAC-NG
+  * Thursday, 8/29/2024 | 1:00 p.m.-2:00 p.m. ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=1334)
+  * Friday, 9/6/2024 | 9:00 a.m.-noon ET | [Register](https://workshop.utk.edu/workshopinfo.php?workshop=1334)
+
+
 ## Full Schedule
 
 ### Class 1. Tuesday August 20 - Command Line I

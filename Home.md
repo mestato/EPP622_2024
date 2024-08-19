@@ -1,8 +1,6 @@
 Welcome to EPP622, Fall 2024!
 --------------------------------------
 
-The purpose of this site is to provide a resource for students and instructors participating in the course. 
-
 [Syllabus Version 1](https://docs.google.com/document/d/1-FMBLeK94SaN2WR3EV2tai4k7xH_i_bF/edit?usp=sharing&ouid=117671002449312371819&rtpof=true&sd=true)
 
 ## Quick Log In
@@ -80,7 +78,8 @@ Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bio
 * Bioinformatics - what is it and where did it come from? [Slides](https://docs.google.com/presentation/d/1sgBG19exSznuIj0HNufhdBB-A_SvysKIlbnXWsknYcg/edit#slide=id.p)
 * Lab: 
   * [[Get on Sphinx]]
-  * [[Getting started with PowerShell (Windows users)]]
+  * Apple - Terminal
+  * Windows - [Mobaxterm](https://mobaxterm.mobatek.net/)
   * Software Carpentry
     * [Intro to the shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
     * [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)

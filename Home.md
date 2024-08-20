@@ -84,6 +84,7 @@ Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bio
     * [Intro to the shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
     * [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
     * Command to download data for command line lessons:
+* [Class Recording](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f01bb7aa-7bc8-49a8-bee5-b1d2014d6bf8)
 
 First, make sure you're in your home directory:
 

@@ -78,7 +78,7 @@ Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bio
 * Bioinformatics - what is it and where did it come from? [Slides](https://docs.google.com/presentation/d/1sgBG19exSznuIj0HNufhdBB-A_SvysKIlbnXWsknYcg/edit#slide=id.p)
 * Lab: 
   * Apple - Terminal
-  * Windows - [Mobaxterm](https://mobaxterm.mobatek.net/)
+  * Windows - [Mobaxterm](https://mobaxterm.mobatek.net/) - Use portable edition
   * [[Get on Sphinx]]
   * Software Carpentry
     * [Intro to the shell](https://swcarpentry.github.io/shell-novice/01-intro.html)

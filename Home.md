@@ -103,7 +103,7 @@ First, make sure you're in your home directory:
 Next get the files:
 
 ```wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip```* [Slides: Computers and HPCs](https://docs.google.com/presentation/d/1wo8OOqeOwEouIJNXpWHPEqkHpKTVYn58eYxT9pS7xxI/edit?usp=sharing)
-* Software Carpentry - [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) 
+  * Software Carpentry - [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) 
 * Reading, HPCs in Oak Ridge
   * [Frontier](https://www.olcf.ornl.gov/frontier/)
 

@@ -105,6 +105,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 
 * Reading, HPCs in Oak Ridge
   * [Frontier](https://www.olcf.ornl.gov/frontier/)
+* [Class recording](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c3fb5db6-3cff-413d-979e-b1d40149413d)
 
 ### Class 3. Tuesday August 27 - Command Line III
 * In person and recorded.

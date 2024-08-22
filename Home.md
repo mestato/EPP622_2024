@@ -92,18 +92,17 @@ Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bio
 
 ### Class 2. Thursday August 22 - Command Line II
 * In person and recorded.
+* [Slides: Computers and HPCs](https://docs.google.com/presentation/d/1wo8OOqeOwEouIJNXpWHPEqkHpKTVYn58eYxT9pS7xxI/edit?usp=sharing)
 * Lab:
     * [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir.html) - Continued from Tuesday
+    * [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html)
     * Command to download data for command line lessons:
 
-First, make sure you're in your home directory:
+```
+/home/your_utk_username
+wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+``
 
-```/home/your_utk_username```
-
-Next get the files:
-
-```wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip```* [Slides: Computers and HPCs](https://docs.google.com/presentation/d/1wo8OOqeOwEouIJNXpWHPEqkHpKTVYn58eYxT9pS7xxI/edit?usp=sharing)
-  * Software Carpentry - [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) 
 * Reading, HPCs in Oak Ridge
   * [Frontier](https://www.olcf.ornl.gov/frontier/)
 

@@ -101,7 +101,7 @@ Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bio
 ```
 /home/your_utk_username
 wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
-``
+```
 
 * Reading, HPCs in Oak Ridge
   * [Frontier](https://www.olcf.ornl.gov/frontier/)

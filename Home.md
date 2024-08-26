@@ -112,6 +112,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * Lecture:
   * AgBioData Intro [Slides](https://docs.google.com/presentation/d/1lpFfg62PfzenpyyKFFH7ZG4QGg9cDhjQiMv7nuAylv8/edit?usp=sharing)
   * AgBioData Lesson 1 - Intro to Biological Databases and Repositories [Slides](https://docs.google.com/presentation/d/1k1uPpOOsCBghNjKzCEr98NaMPrVciMJzbdXveoIjyqs/edit?usp=sharing)
+* [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) - continued from last time
 * [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters 
 * Reading
   * [The 40 Most-Used Linux Commands You Should Know](https://kinsta.com/blog/linux-commands/)

@@ -110,7 +110,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 ### Class 3. Tuesday August 27 - Command Line III
 * In person and recorded.
 * Lecture:
-  * AgBioData Lesson 1 - Intro to Biological Databases and Repositories [Slides](https://docs.google.com/presentation/d/1k1uPpOOsCBghNjKzCEr98NaMPrVciMJzbdXveoIjyqs/edit?usp=sharing)
+  * AgBioData Lesson 1 - [Intro to Biological Databases and Repositories](https://docs.google.com/presentation/d/1yxSz756teJGJVMAd5hMNhhDLWxoZW_u1G5yVrweEiQs/edit?usp=sharing)
 * [Filesystem Practice](https://docs.google.com/presentation/d/15mJLR22nTMVjTG-VSXUsyG0cpRTwpt3F/edit?usp=sharing&ouid=117671002449312371819&rtpof=true&sd=true)
 * [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) - continued from last time
 * [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters 

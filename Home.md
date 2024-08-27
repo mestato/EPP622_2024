@@ -115,7 +115,10 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html) - continued from last time
 * [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters 
 * Reading
-  * [The 40 Most-Used Linux Commands You Should Know](https://kinsta.com/blog/linux-commands/)
+  * [Bash-Cheat-Sheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet)
+    * Or find or make your own!
+  * Brandies and Hogg 2021 [Ten simple rules for getting started with command-line bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891784/)
+  * Tang 2023 [Embracing the command line: my unexpected career in computational biology](https://www.nature.com/articles/d41586-023-03120-4)
 
 ### Class 4. Thursday August 29 - Command Line IV
 * In person and recorded.

@@ -9,29 +9,6 @@ ssh yourusername@sphinx.ag.utk.edu
 
 Many software packages are available through [the spack system](https://spack.io/). Spack manages scientific software (usually pretty well but not always!) This is a way for a computer system to manage many software packages and make them available to users. For you to use spack, we need to add some information to a file in your home directory called `.bash_profile`. This is a hidden file that you normally don't have to worry about too much. It contains commands that run every time you log in, and it's usually for configurations.
 
-To make spack work, we need to add a bit of code to this file.
-```
-cd ~
-nano .bash_profile
-```
-
-(Need a nano review? Here's [a video on how to use nano](https://www.youtube.com/watch?v=LCF8Ep0EASY) and covers the basics.)
-
-To the *bottom* of the .bash_profile file, add:
-```
-export SPACK_ROOT=/pickett_shared/spack
-PATH=$PATH:$HOME/bin:$SPACK_ROOT/bin
-. $SPACK_ROOT/share/spack/setup-env.sh
-```
-See more detailed instructions on preparing the profile for spack [here](https://github.com/mestato/EPP622_2022/wiki/Get-on-Sphinx).
-
-Now, save and exit nano. For this session only (you don't ever have to do this again!) run this command:
-```
-source .bash_profile
-```
-
-This will happen automatically next time you log in. 
-
 Lets see what cool software we can play with! This is everything spack *can* install:
 
 ```
@@ -253,7 +230,12 @@ blastp \
 
 I picked "max target seqs" for a reason! It's quite a misleading flag - it finds the number of target sequences but they may not be the best matches. [See this blog post for more details.](https://blastedbio.blogspot.com/2015/12/blast-max-target-sequences-bug.html).
 
-This is still very inefficient compared to what we can do. Lets imagine needing to BLAST 50,000 sequences against a database of 500,000 proteins (a surprisingly common task!). A single command can do that.
+How many results did we get?
+```
+wc -l cow_vs_human_blast_results.tsv
+```
+
+This is still very small compared to what we can do. Lets imagine needing to BLAST 50,000 sequences against a database of 500,000 proteins (a surprisingly common task!). A single command can do that.
 
 ## Diamond
 
@@ -262,6 +244,10 @@ An alternative basic alignment tool to BLAST is diamond. Currently, diamond only
 Load up diamond using spack:
 ```
 spack load diamond
+```
+
+If spack does not work, use the locally installed version
+```
 ```
 
 Similarly to BLAST, diamond also creates a database:

@@ -65,6 +65,45 @@ blastn -version
 blastp -help
 ```
 
+## Alternatives to Spack
+We can use a locally installed blast version.
+
+```
+/pickett_shared/software/ncbi-blast-2.16.0+/bin/blastn -version
+/pickett_shared/software/ncbi-blast-2.16.0+/bin/blastp -help
+```
+
+You'll have to type the absolute path every time unless you add this to your path variable.
+
+---
+> Bash environmental variable
+>
+> Environment variables are special variables (like $HOME and $PATH) that contain information about your login session. They're stored for the system shell to use when executing commands. They are usually automatically set, but you can alter them. 
+> [Read more](https://opensource.com/article/19/8/what-are-environment-variables)
+---
+---
+> $PATH variable
+>
+> The PATH variable contains a list of directories the system checks before running a command. Updating the PATH variable will enable you to run any executables found in the directories mentioned in PATH from any directory without typing the absolute file path.
+> [Read more](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable)
+---
+
+See what you already have
+```
+echo $PATH
+```
+Add to it
+```
+PATH="/pickett_shared/software/ncbi-blast-2.16.0+/bin:$PATH"
+```
+Keeping your existing paths is important, that is why the variable name is repeated at the end. Now make sure that worked
+```
+blastn -version
+blastp -help
+```
+
+You'll have to do this every time you open a new terminal. Alternatively, you can add this to your ~/.bash_profile and it will automatically be run every time you log in. 
+
 ## BLAST
 
 BLAST is one of the most common bioinformatics tools out there, and many biology students learn to run BLAST for individual or small sets of sequences via a web interface: [you can find a quick tutorial of web BLAST here](https://www.tigm.org/updated-blast-tutorial/). The most popular is probably [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi). However, you can perform many more BLAST computations on an HPC.  

@@ -284,9 +284,25 @@ Load up diamond using spack:
 ```
 spack load diamond
 ```
+there are multiple versions, lets pick the most up to date
+```
+spack load /h7fm4ww
+```
+or you can specify the version directly
+```
+spack load diamond@2.0.15
+```
+Test it out
+```
+which diamond
+diamond --version
+diamond --help
+```
 
 If spack does not work, use the locally installed version
 ```
+PATH="/pickett_shared/software:$PATH"
+which diamond
 ```
 
 Similarly to BLAST, diamond also creates a database:
@@ -296,7 +312,15 @@ diamond makedb --in human.1.protein.faa --db human_db
 
 Then, diamond runs... blastp. Note: here we are using the block flag 'b1' to denote amount of memory for diamond to use. According to diamond's documentation, a block size of 1 (b1) corresponds with 1 billion sequence letters to process at a time, and the ram usage in Gb is approximately 6X this value (e.g. using b2 would use 12Gb, and b3 would use 18gb).
 ```
-diamond blastp -d human_db.dmnd -q cow.medium.faa -b1 -o cow_vs_human_diamond_results.tsv
+diamond blastp -q cow.medium.faa -d human_db.dmnd -b1 -o cow_vs_human_diamond_results.tsv
 ```
 
 Always read the manual and consider memory usage! Also, whenever using a newer software on GitHub, be sure to swing by the [issues](https://github.com/bbuchfink/diamond/issues) page to see if there are any concerns by fellow users than might influence your analysis.
+
+## Compare the times
+We can check the time savings using the time command
+```
+time diamond blastp -q cow.medium.faa -d human_db.dmnd -o cow_vs_human_diamond_results.tsv -b1
+time blastp -query cow.medium.faa -db human.1.protein.faa -out cow_vs_human_blast_results.tsv
+```
+How much faster is diamond?

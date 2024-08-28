@@ -133,6 +133,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 ### Class 5. Tuesday September 3 - Command Line V
 * In person and recorded.
 * Test 1 distributed. (TEST 1 Due at midnight on September 10th.)
+* Slides: [Finish up BLAST algorithm](https://docs.google.com/presentation/d/1UuSaOrrFOImwG-tiz7g2qiYwvAWLDBsiGTPGKUwKtxA/edit?usp=sharing)
 * Slides: [Data Management](https://docs.google.com/presentation/d/1OqNMe2Pr_hDXOtaj1-0N3wKSEkjG0FQZQYe9Sdv9UQ0/edit?usp=sharing)
 * [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop.html) - Loops 
 

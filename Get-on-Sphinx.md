@@ -37,7 +37,6 @@ export SPACK_ROOT=/pickett_shared/spack
 PATH=$PATH:$HOME/bin:$SPACK_ROOT/bin
 . $SPACK_ROOT/share/spack/setup-env.sh
 
-exec newgrp statonutia
 ```
 
 # How to Log In From Off Campus

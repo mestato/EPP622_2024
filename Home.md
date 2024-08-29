@@ -119,6 +119,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
     * Or find or make your own!
   * Brandies and Hogg 2021 [Ten simple rules for getting started with command-line bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7891784/)
   * Tang 2023 [Embracing the command line: my unexpected career in computational biology](https://www.nature.com/articles/d41586-023-03120-4)
+* [Class recording](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=68d9e96a-ec74-4780-b176-b1d90149dd4d)
 
 ### Class 4. Thursday August 29 - Command Line IV
 * In person and recorded.

@@ -129,6 +129,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
   * Buchfink et al. 2001 [Sensitive protein alignments at tree-of-life scale using DIAMOND](https://www.nature.com/articles/s41592-021-01101-x)
   * Software Carpentry's [Regular Expressions for Biologists](https://carpentries-incubator.github.io/regex-novice-biology/index.html)
   * [Diamond software & documentation](https://github.com/bbuchfink/diamond)
+* [Class recording](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e7eddd4f-78dc-4490-af9f-b1db014d601b)
 
 
 ### Class 5. Tuesday September 3 - Command Line V

@@ -136,7 +136,8 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * In person and recorded.
 * Test 1 distributed. (TEST 1 Due at midnight on September 10th.)
 * Slides: [Finish up BLAST algorithm](https://docs.google.com/presentation/d/1UuSaOrrFOImwG-tiz7g2qiYwvAWLDBsiGTPGKUwKtxA/edit?usp=sharing)
-* Slides: [Data Management](https://docs.google.com/presentation/d/1OqNMe2Pr_hDXOtaj1-0N3wKSEkjG0FQZQYe9Sdv9UQ0/edit?usp=sharing)
+* Sequence Alignment: [Slides](https://docs.google.com/presentation/d/1NecHweqYZ9HMICOp_YQnfKBCq_wmDiScjMQbIF_uFxE/edit?usp=sharing) - finish from class 4
+* [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters (finish from Class 3)
 * [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop.html) - Loops 
 
 ### Class 6. Thursday September 5 - No new material.

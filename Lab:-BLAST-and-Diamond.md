@@ -323,4 +323,11 @@ We can check the time savings using the time command
 time diamond blastp -q cow.medium.faa -d human_db.dmnd -o cow_vs_human_diamond_results.tsv -b1
 time blastp -query cow.medium.faa -db human.1.protein.faa -out cow_vs_human_blast_results.tsv
 ```
+Why are there three times?
+* Real-time (real). The real-life time it takes for the process to run from start to finish. This includes any time taken by other processes and the time spent waiting for them to be complete.
+* User time (user). The amount of CPU time spent in user mode during the process. Other processes and blocked time are not included.
+* System time (sys). The total CPU time spent in kernel mode during the process. Similar to user time, other processes and time spent blocked by other processes are not counted.
+
+User + Sys is typically used for figuring out the actual resource usage, but for this class and this application we can use real as a perfectly fine proxy.
+
 How much faster is diamond?

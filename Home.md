@@ -136,6 +136,9 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * In person and recorded.
 * Test 1 distributed. (TEST 1 Due at midnight on September 10th.)
 * Slides: [Finish up BLAST algorithm](https://docs.google.com/presentation/d/1UuSaOrrFOImwG-tiz7g2qiYwvAWLDBsiGTPGKUwKtxA/edit?usp=sharing)
+  * Perhaps others can explain this better, try these vids:
+    * Deborah Thurtle-Schmidt [global sequence alignment](https://www.youtube.com/watch?v=LhpGz5--isw)
+    * Professor Hendrix [understanding sequence alignment algorithms](https://www.youtube.com/watch?v=b6xBvl0yPAY)
 * Sequence Alignment: [[Lab: BLAST and Diamond]] - finish from class 4
 * [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters (finish from Class 3)
 * [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop.html) - Loops 

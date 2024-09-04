@@ -142,6 +142,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * Sequence Alignment: [[Lab: BLAST and Diamond]] - finish from class 4
 * [SWC 4](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) - Pipes and Filters (finish from Class 3)
 * [SWC 5](https://swcarpentry.github.io/shell-novice/05-loop.html) - Loops 
+* [Day 5 Class Recording](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a05279aa-8740-4a47-9048-b1e001474f1d)
 
 ### Class 6. Thursday September 5 - No new material.
 * Optional work on Test 1 in class. TEST 1 Due at midnight on September 10th.

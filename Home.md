@@ -146,4 +146,6 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 
 ### Class 6. Thursday September 5 - No new material.
 * Optional work on Test 1 in class. TEST 1 Due at midnight on September 10th.
+* [Class recording part I](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d91f2389-3103-4335-ba37-b1e2014e0880)
+* [Class recording part II](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=464b179a-0224-4765-b02e-b1e2014e1bcf)
 

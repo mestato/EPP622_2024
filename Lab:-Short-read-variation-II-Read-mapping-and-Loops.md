@@ -87,14 +87,14 @@ To exemplify this, I created a directory with 3 fastq files (SRR6922148_1, SRR69
 ```
 Change into your personal working directory and copy this new directory into it. Make sure to use the recursive flag (-r) to copy the directory and all its contents.
 
-```
+```bash
 cd /pickett_sphinx/teaching/EPP622_2024/analyses/<your_utk_username>
 cp -r /pickett_sphinx/teaching/EPP622_2024/bkapoor/for_loop_exercise .
 ```
 
 We will be putting the commands inside a script. Next, use `nano` and create a script. Name it whatever you want, but make sure it's relevant to your task and it ends in `.sh`. Here is what I named mine:
 
-```
+```bash
 cd for_loop_exercise/
 nano bwa.sh
 ```
@@ -103,7 +103,7 @@ The first thing we need to do is extract the base name from each of the files. W
 
 **NOTE**: although these scripts use `bwa`, you can adapt these scripts to any program you want to run.
 
-```
+```bash
 for file in *.fastq
 do
     basename=$(echo "$file" | sed 's/.fastq//')
@@ -114,7 +114,7 @@ done
 
 The `sed 's/.fastq//'` part of the command substitutes (the "s") the ".fastq" part of the filename with nothing (notice the emptiness between the slashes). Execute the script by typing `bash bwa.sh`. It will print the original name of the file (`echo $file`), followed by the new-and-improved basename (`$echo basename`).
 
-```
+```bash
 SRR6922148_1.fastq
 SRR6922148_1
 SRR6922291_1.fastq
@@ -125,7 +125,7 @@ SRR6922311_1
 
 Now, let's modify and combine this new code with our old `bwa` code. Also, you can add your software packages here instead of loading before running the script. In comparison to our original `bwa` run in the lab session, note that the only thing that changes is the first part of the input and output files will be now be ${basename} instead of the file's name hardcoded in. 
 
-```
+```bash
 spack load bwa
 spack load samtools@1.9%gcc@8.4.1
 
@@ -149,7 +149,7 @@ This above code works great if you have single-end reads, but what about paired-
 
 Let's see an example:
 
-```
+```bash
 spack load bwa
 spack load samtools@1.9%gcc@8.4.1
 

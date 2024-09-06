@@ -30,7 +30,7 @@ Let's symbolically link the _S. invicta_ genome and index files to our working d
 ```bash
 mkdir solenopsis_genome_index
 cd solenopsis_genome_index
-ln -s ../../../../raw_data/solenopsis_invicta/genome/UNIL_Sinv_3.0.fasta* .
+ln -s ../../../../raw_data/genome/solenopsis_invicta_genome.fa.gz* .
 ```
 Next, change back into your `3_bwa` directory (`cd ../`) and symbolically link your trimmed fastq file.
 

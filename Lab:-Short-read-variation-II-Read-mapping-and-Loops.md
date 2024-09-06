@@ -149,7 +149,7 @@ do
     echo $basename
 
     bwa mem -t 6 \
-    solenopsis_genome_index/solenopsis_invicta_genome.fa.gz \
+    /pickett_sphinx/teaching/EPP622_2024/raw_data/genome/solenopsis_invicta_genome.fa.gz \
     ${basename}.fastq \
     | samtools view -bSh \
     | samtools sort \
@@ -177,7 +177,7 @@ do
     echo $basename #you will get SRR### instead of SRR###_1 like in the previous example
 
     bwa mem -t 6 \
-    solenopsis_genome_index/solenopsis_invicta_genome.fa.gz \
+    /pickett_sphinx/teaching/EPP622_2024/raw_data/genome/solenopsis_invicta_genome.fa.gz \
     ${basename}_1.fastq \ #hardcode in "_1" 
     ${basename}_2.fastq \ #hardcode in "_2" 
     | samtools view -bSh \

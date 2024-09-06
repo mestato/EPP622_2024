@@ -43,8 +43,6 @@ mkdir <your user id goes here>
 cd <your user id goes here>
 ```
 
-
-
 ## 3. Running fastqc
 Now, let's make a directory where we will run `fastqc`:
 ```bash
@@ -73,9 +71,8 @@ scp <your_username>@sphinx.ag.utk.edu:/pickett_sphinx/teaching/EPP622_2024/analy
 ```
 
 ## 4. Running Skewer
-[skewer github](https://github.com/relipmoc/skewer)
 
-Skewer is a fast and accurate adapter trimmer for next-generation sequencing paired-end reads. It has several features such as detecting and removing adapter sequences, trimming sequences based on phred quality scores etc. Now, go to your personal analyses directory and make a new directory -
+[Skewer](https://github.com/relipmoc/skewer) is a fast and accurate adapter trimmer for next-generation sequencing paired-end reads. It has several features such as detecting and removing adapter sequences, trimming sequences based on phred quality scores etc. Now, go to your personal analyses directory and make a new directory -
 ```bash
 cd /pickett_sphinx/teaching/EPP622_2024/analyses/<your name>
 mkdir 2_skewer

@@ -21,7 +21,7 @@ The next step of this process is to download the reference genome and index it. 
 However, if you need to index a reference genome for your project, the command is:
 
 ```bash
-#for your reference, do not perform for this lab!
+#This code is just for your reference, please DO NOT run this!
 bwa index <your_organism_ref_genome.fasta>
 ```
 

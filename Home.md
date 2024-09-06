@@ -149,7 +149,8 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * [Class recording part I](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d91f2389-3103-4335-ba37-b1e2014e0880)
 * [Class recording part II](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=464b179a-0224-4765-b02e-b1e2014e1bcf)
 
-### Class 7. Tuesday September 10 - Command Line VI
+### Class 7. Tuesday September 10 - Loops, Read QC and trimming
 * In person and recorded.
 * [Lab - For Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
+* [Lab - Read QC and trimming](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-I-%E2%80%90-Read-QC-and-trimming)
 

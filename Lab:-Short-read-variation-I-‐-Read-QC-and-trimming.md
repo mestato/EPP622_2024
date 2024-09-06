@@ -31,6 +31,8 @@ Please view the below table, as every student has been assigned a read for the d
 
 **NOTE** - Please let us know if you are having any trouble with your assigned fastq files down the road. We have downloaded some extra fastq files in case.
 
+**NOTE** - Wherever you see something like `<your subset>` in the code block, please do not copy paste as it might not work. In the coding world, anything within `<>` means you have to specify it yourself.
+
 ## 2. Setting up a personal directory
 Go to the analyses directory within the EPP 622 course directory:
 ```bash

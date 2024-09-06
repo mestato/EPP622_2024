@@ -36,7 +36,7 @@ Next, change back into your `3_bwa` directory (`cd ../`) and symbolically link y
 
 ```bash
 cd ../
-ln -s ../2_skewer/<your_assigned_read_set>_trimmed.fastq .
+ln -s ../2_skewer/<your_assigned_read_set>-trimmed.fastq .
 ```
 
 Now, we are almost ready! Load `bwa` and `samtools` using `spack`. The output of your `bwa` run is a SAM file and we will need to convert it to a BAM file. Using the fancy `|` notation we learned in the Software Carpentry lessons, we can combine these commands to save time.

@@ -113,7 +113,7 @@ done
 
 ## 5. Run fastqc on trimmed files
 
-Now that we have trimmed our sequence file, let's check it's quality using fastqc. So, go back to your personal directory and make a new directory -
+Now that we have trimmed our sequence file, let's check it's quality using fastqc. Since, we already have the `fastqc` loaded using Spack we don't have to do that again.
 ```bash
-fastqc <your subset>-trimmed.fastq
+fastqc <your subset>_trimmed.fastq
 ```

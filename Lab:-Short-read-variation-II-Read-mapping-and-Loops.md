@@ -57,6 +57,8 @@ solenopsis_genome_index/solenopsis_invicta_genome.fa.gz \
 * `samtools view -bSh` is used to convert the output from a SAM file to a BAM file with a header 
 * `-@` and `-m` designates the number of threads to run the job and memory per thread (samtools)
 
+**NOTE** - It takes about 5 minutes to run this command. It may take longer for you depending upon the number of reads in your assigned fastq file.
+
 Once the command stops running, you can extract stats from your sorted.bam file using `samtools flagstat` and output to a separate file.
 
 ```bash

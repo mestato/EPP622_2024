@@ -28,3 +28,45 @@ Please view the below table, as every student has been assigned a read for the d
 |Meg Staton|SRR6922321|1696637|Alejandra, Argentina
 |Alysson Dekovich|SRR6922446|991054|Alejandra, Argentina
 |Beant Kapoor|SRR6922447|1957684|Alejandra, Argentina
+
+
+## 2. Setting up a personal directory
+Go to the analysis directory within the EPP 622 course directory:
+```bash
+/pickett_shared/teaching/EPP622_Fall2024/analysis
+```
+...and make a personal analysis folder. For example:
+
+```bash
+mkdir <your user id goes here>
+cd <your user id goes here>
+```
+
+
+
+## 3. Running fastqc
+Now, let's make a directory where we will run`fastqc:
+```
+mkdir 1_fastqc
+cd 1_fastqc
+```
+
+We can create a soft link (symbolic link) to the raw data
+```
+ln -s ../../../raw_data/solenopsis_invicta/<your subset>.fastq .
+```
+
+Let's load fastqc:
+```
+spack load fastqc
+```
+
+Let's run the program now. Since, we all are sharing the same computing resource, we will run `fastqc` on just one forward read fastq file -
+```
+fastqc <your subset>
+```
+
+This program outputs results in`.zip and .html formats. We can't inspect them on sphinx, so we'll need to copy them to our own devices.
+```
+scp '<your_username>@sphinx.ag.utk.edu:/pickett_shared/teaching/EPP622_Fall2022/analysis/<your_username>/1_fastqc/*html' ./
+```

@@ -65,7 +65,9 @@ Once the command stops running, you can extract stats from your sorted.bam file 
 samtools flagstat <your_assigned_read_set>_sorted.bam > <your_assigned_read_set>_sorted.stats
 ```
 
-Open up your `sorted.stats` file using `cat` to view various statistics. You may notice the % of reads mapped, and this value may be very high (>99% reads mapped). However, the percentage is wrong because `bwa` only counts reads that map to the reference as input reads. 
+Open up your `sorted.stats` file using `cat` to view various statistics. You may notice the % of reads mapped, and this value may be very high (>99% reads mapped). However, the percentage is wrong because `bwa` only counts reads that map to the reference as input reads.
+
+What % of reads mapped from your assigned fastq file? Is it different from the one you got using samtools flagstat? 
 
 To rectify this, we can use the `bc` calculator tool to calculate the total number of reads from our assigned fastq file, and use this as the denominator to calculate the correct % for mapped reads.
 

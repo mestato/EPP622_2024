@@ -53,7 +53,7 @@ cd 1_fastqc
 
 We can create a soft link (symbolic link) to the raw data
 ```
-ln -s ../../raw_data/solenopsis_invicta/<your subset>.fastq .
+ln -s ../../../raw_data/solenopsis_invicta/<your subset>.fastq .
 ```
 
 Let's load fastqc:
@@ -66,7 +66,7 @@ Let's run the program now. Since, we all are sharing the same computing resource
 fastqc <your subset>
 ```
 
-This program outputs results in`.zip and .html formats. We can't inspect them on sphinx, so we'll need to copy them to our own devices.
+This program outputs results in`.zip and .html formats. We can't inspect them on Sphinx, so we'll need to copy them to our own devices.
 ```
-scp '<your_username>@sphinx.ag.utk.edu:/pickett_shared/teaching/EPP622_Fall2022/analysis/<your_username>/1_fastqc/*html' ./
+scp <your_username>@sphinx.ag.utk.edu:/pickett_shared/teaching/EPP622_Fall2022/analysis/<your_username>/1_fastqc/\*html .
 ```

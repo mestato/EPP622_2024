@@ -29,7 +29,7 @@ Please view the below table, as every student has been assigned a read for the d
 |Alysson Dekovich|SRR6922446|991054|Alejandra, Argentina
 |Beant Kapoor|SRR6922447|1957684|Alejandra, Argentina
 
-**NOTE** - Please let us know if you are having any trouble with your assigned fastq files down the road. We have downloaded some extra fastq files in case.
+**NOTE** - Please let us know if you are having any trouble with your assigned fastq files. We have downloaded some extra fastq files just in case.
 
 **NOTE** - Wherever you see something like `<your subset>` in the code block, please do not copy paste as it might not work. In the coding world, anything within `<>` means you have to specify it yourself.
 

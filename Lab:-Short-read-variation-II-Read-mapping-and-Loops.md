@@ -81,9 +81,23 @@ echo $(cat <your_assigned_read_set>-trimmed.fastq | wc -l)/4 | bc
 
 In this lab, you are running each program on a single file. In reality, you will have dozens of files, and typing out the command for each file is tedious and cumbersome. Instead, we can use a for loop to run a program through all our files.
 
-To exemplify this, I created a directory with 3 fastq files (SRR6922148_1, SRR6922291_1, and SRR6922311_1) and the _Solenopsis_ index files located here: 
-```
-/pickett_sphinx/teaching/EPP622_2024/bkapoor/for_loop_exercise
+To exemplify this, I created a directory `for_loop_exercise` with 2 sub-directories - `single_end` and `paired_end`. We will see how to run for loop on both type of data.
+```bash
+(base) [bkapoor@sphinx bkapoor]$ tree for_loop_exercise/
+for_loop_exercise/
+├── paired_end
+│   ├── SRR6922148_1.fastq
+│   ├── SRR6922148_2.fastq
+│   ├── SRR6922291_1.fastq
+│   ├── SRR6922291_2.fastq
+│   ├── SRR6922311_1.fastq
+│   └── SRR6922311_2.fastq
+└── single_end
+    ├── SRR6922148.fastq
+    ├── SRR6922291.fastq
+    └── SRR6922311.fastq
+
+2 directories, 9 files
 ```
 Change into your personal working directory and copy this new directory into it. Make sure to use the recursive flag (-r) to copy the directory and all its contents.
 
@@ -91,12 +105,11 @@ Change into your personal working directory and copy this new directory into it.
 cd /pickett_sphinx/teaching/EPP622_2024/analyses/<your_utk_username>
 cp -r /pickett_sphinx/teaching/EPP622_2024/bkapoor/for_loop_exercise .
 ```
-
-We will be putting the commands inside a script. Next, use `nano` and create a script. Name it whatever you want, but make sure it's relevant to your task and it ends in `.sh`. Here is what I named mine:
+First, let's run for loop on single end files. Change into the `single_end` folder and start writing the script using `nano`. Name it whatever you want, but make sure it's relevant to your task and it ends in `.sh`. Here is what I named mine:
 
 ```bash
-cd for_loop_exercise/
-nano bwa.sh
+cd single_end/
+nano bwa_se.sh
 ```
 
 The first thing we need to do is extract the base name from each of the files. We can do this using `sed`; also known as "stream editor", `sed` is incredibly powerful, as it can be used to replace, search, insert, or delete items in a file.  
@@ -145,7 +158,12 @@ do
 done
 ```
 
-This above code works great if you have single-end reads, but what about paired-end? You can use `sed` on the forward read (_1) to get the read accession ID only (SRR###) and then hardcode in "_1" and "_2" for the forward and reverse reads, respectively. 
+Next, let's use for loop to map paired end data to the genome. Change into the `paired_end` directory and write the following script.
+
+```bash
+cd ../paired_end
+nano bwa_pe.sh
+```
 
 Let's see an example:
 

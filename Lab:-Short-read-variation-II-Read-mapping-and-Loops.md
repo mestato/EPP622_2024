@@ -3,7 +3,7 @@ In today's lab, we will be mapping our reads to the _Solenopsis invicta_ referen
 
 First, change into your personal directory and make a new directory titled `3_bwa`. As a reminder, the path to your personal working directory should be 
 ```
-/pickett_sphinx/teaching/EPP622_2024/analysis/<your_utk_username>`
+/pickett_sphinx/teaching/EPP622_2024/analyses/<your_username>
 ```
 
 Then, create a new directory called `3_bwa` and change into it.

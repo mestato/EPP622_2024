@@ -15,7 +15,7 @@ cd 3_bwa
 
 The next step of this process is to download the reference genome and index it. In the interest of time, we already downloaded and indexed the genome for you. The necessary files can be found here: 
 ```
-/pickett_sphinx/teaching/EPP622_2024/raw_data/solenopsis_invicta/genome
+/pickett_sphinx/teaching/EPP622_2024/raw_data/genome
 ```
 
 However, if you need to index a reference genome for your project, the command is:

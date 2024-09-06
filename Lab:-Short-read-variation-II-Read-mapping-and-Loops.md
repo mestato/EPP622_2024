@@ -169,4 +169,3 @@ do
 
 done
 ```
-**NOTE**: the above example will not work with our _Solenopsis_ data, as they are single-end reads. Feel free to adapt this template with your own paired-end data to see it in action!

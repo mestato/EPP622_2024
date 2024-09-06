@@ -154,3 +154,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * [Lab - For Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
 * [Lab - Read QC and trimming](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-I-%E2%80%90-Read-QC-and-trimming)
 
+### Class 8. Thursday September 12 - Read mapping and Loops
+* In person and recorded.
+* [Lab - Read mapping and Loops](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-II-Read-mapping-and-Loops)
+

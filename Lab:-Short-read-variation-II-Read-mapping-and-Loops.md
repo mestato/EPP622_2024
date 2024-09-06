@@ -68,3 +68,103 @@ samtools flagstat <your_assigned_read_set>_sorted.bam > <your_assigned_read_set>
 Open up your `sorted.stats` file using `cat` to view various statistics. You may notice the % of reads mapped, and this value may be very high (>99% reads mapped). However, the percentage is wrong because `bwa` only counts reads that map to the reference as input reads. 
 
 To rectify this, we can use the `bc` calculator tool to calculate the total number of reads from our assigned fastq file, and use this as the denominator to calculate the correct % for mapped reads.
+
+```bash
+spack load bc%gcc@8.4.1
+echo $(cat <your_assigned_read_set>-trimmed.fastq | wc -l)/4 | bc
+```
+% reads mapped = (total # of reads mapped from flagstat)/(total number of reads from bc command) * 100
+
+# For your reference - Using loops to run `bwa` (or any program) on multiple files.
+
+In this lab, you are running each program on a single file. In reality, you will have dozens of files, and typing out the command for each file is tedious and cumbersome. Instead, we can use a for loop to run a program through all our files.
+
+To exemplify this, I created a directory with 3 fastq files (SRR6922148_1, SRR6922291_1, and SRR6922311_1) and the _Solenopsis_ index files located here: 
+```
+/pickett_sphinx/teaching/EPP622_2024/bkapoor/for_loop_exercise
+```
+Change into your personal working directory and copy this new directory into it. Make sure to use the recursive flag (-r) to copy the directory and all its contents.
+
+```
+cd /pickett_sphinx/teaching/EPP622_2024/analyses/<your_utk_username>
+cp -r /pickett_sphinx/teaching/EPP622_2024/bkapoor/for_loop_exercise .
+```
+
+We will be putting the commands inside a script. Next, use `nano` and create a script. Name it whatever you want, but make sure it's relevant to your task and it ends in `.sh`. Here is what I named mine:
+
+```
+cd for_loop_exercise/
+nano bwa.sh
+```
+
+The first thing we need to do is extract the base name from each of the files. We can do this using `sed`; also known as "stream editor", `sed` is incredibly powerful, as it can be used to replace, search, insert, or delete items in a file.  
+
+**NOTE**: although these scripts use `bwa`, you can adapt these scripts to any program you want to run.
+
+```
+for file in *.fastq
+do
+    basename=$(echo "$file" | sed 's/.fastq//')
+    echo $file
+    echo $basename
+done
+```
+
+The `sed 's/.fastq//'` part of the command substitutes (the "s") the ".fastq" part of the filename with nothing (notice the emptiness between the slashes). Execute the script by typing `bash bwa.sh`. It will print the original name of the file (`echo $file`), followed by the new-and-improved basename (`$echo basename`).
+
+```
+SRR6922148_1.fastq
+SRR6922148_1
+SRR6922291_1.fastq
+SRR6922291_1
+SRR6922311_1.fastq
+SRR6922311_1
+```
+
+Now, let's modify and combine this new code with our old `bwa` code. Also, you can add your software packages here instead of loading before running the script. In comparison to our original `bwa` run in the lab session, note that the only thing that changes is the first part of the input and output files will be now be ${basename} instead of the file's name hardcoded in. 
+
+```
+spack load bwa
+spack load samtools@1.9%gcc@8.4.1
+
+for file in *.fastq
+do
+    basename=$(echo "$file" | sed 's/.fastq//')
+    echo $file
+    echo $basename
+
+    bwa mem -t 6 \
+    solenopsis_genome_index/solenopsis_invicta_genome.fa.gz \
+    ${basename}.fastq \
+    | samtools view -bSh \
+    | samtools sort \
+    -@ 3 -m 4G \
+    -o ${basename}_sorted.bam
+done
+```
+
+This above code works great if you have single-end reads, but what about paired-end? You can use `sed` on the forward read (_1) to get the read accession ID only (SRR###) and then hardcode in "_1" and "_2" for the forward and reverse reads, respectively. 
+
+Let's see an example:
+
+```
+spack load bwa
+spack load samtools@1.9%gcc@8.4.1
+
+for file in *_1.fastq
+do
+    basename=$(echo "$file" | sed 's/_1.fastq//') 
+    echo $basename #you will get SRR### instead of SRR###_1 like in the previous example
+
+    bwa mem -t 6 \
+    solenopsis_genome_index/solenopsis_invicta_genome.fa.gz \
+    ${basename}_1.fastq \ #hardcode in "_1" 
+    ${basename}_2.fastq \ #hardcode in "_2" 
+    | samtools view -bSh \
+    | samtools sort \
+    -@ 3 -m 4G \
+    -o ${basename}_sorted.bam
+
+done
+```
+**NOTE**: the above example will not work with our _Solenopsis_ data, as they are single-end reads. Feel free to adapt this template with your own paired-end data to see it in action!

@@ -29,6 +29,7 @@ Please view the below table, as every student has been assigned a read for the d
 |Alysson Dekovich|SRR6922446|991054|Alejandra, Argentina
 |Beant Kapoor|SRR6922447|1957684|Alejandra, Argentina
 
+**NOTE** - Please let us know if you are having any trouble with your assigned fastq files down the road. We have downloaded some extra fastq files in case.
 
 ## 2. Setting up a personal directory
 Go to the analysis directory within the EPP 622 course directory:

@@ -45,28 +45,28 @@ cd <your user id goes here>
 
 
 ## 3. Running fastqc
-Now, let's make a directory where we will run`fastqc:
-```
+Now, let's make a directory where we will run `fastqc`:
+```bash
 mkdir 1_fastqc
 cd 1_fastqc
 ```
 
 We can create a soft link (symbolic link) to the raw data
-```
+```bash
 ln -s ../../../raw_data/solenopsis_invicta/<your subset>.fastq .
 ```
 
 Let's load fastqc:
-```
+```bash
 spack load fastqc
 ```
 
 Let's run the program now. Since, we all are sharing the same computing resource, we will run `fastqc` on just one forward read fastq file -
-```
+```bash
 fastqc <your subset>
 ```
 
 This program outputs results in`.zip and .html formats. We can't inspect them on Sphinx, so we'll need to copy them to our own devices.
-```
+```bash
 scp <your_username>@sphinx.ag.utk.edu:/pickett_shared/teaching/EPP622_Fall2022/analysis/<your_username>/1_fastqc/\*html .
 ```

@@ -1,4 +1,4 @@
-# BWA (Burrows-Wheeler Alignment)
+### BWA (Burrows-Wheeler Alignment)
 In today's lab, we will be mapping our reads to the _Solenopsis invicta_ reference genome using [bwa](http://bio-bwa.sourceforge.net/). Before we get started, let's prep our directories and retrieve the reference genome index files.
 
 First, change into your personal directory and make a new directory titled `3_bwa`. As a reminder, the path to your personal working directory should be 
@@ -77,7 +77,7 @@ echo $(cat <your_assigned_read_set>-trimmed.fastq | wc -l)/4 | bc
 ```
 % reads mapped = (total # of reads mapped from flagstat)/(total number of reads from bc command) * 100
 
-# For your reference - Using loops to run `bwa` (or any program) on multiple files.
+### For your reference - Using loops to run `bwa` (or any program) on multiple files.
 
 In this lab, you are running each program on a single file. In reality, you will have dozens of files, and typing out the command for each file is tedious and cumbersome. Instead, we can use a for loop to run a program through all our files.
 

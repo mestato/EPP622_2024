@@ -168,9 +168,6 @@ nano bwa_pe.sh
 Let's see an example:
 
 ```bash
-spack load bwa
-spack load samtools@1.9%gcc@8.4.1
-
 for file in *_1.fastq
 do
     basename=$(echo "$file" | sed 's/_1.fastq//') 

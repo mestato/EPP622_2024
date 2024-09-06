@@ -32,9 +32,9 @@ Please view the below table, as every student has been assigned a read for the d
 **NOTE** - Please let us know if you are having any trouble with your assigned fastq files down the road. We have downloaded some extra fastq files in case.
 
 ## 2. Setting up a personal directory
-Go to the analysis directory within the EPP 622 course directory:
+Go to the analyses directory within the EPP 622 course directory:
 ```bash
-/pickett_shared/teaching/EPP622_2024/analysis
+/pickett_sphinx/teaching/EPP622_2024/analyses
 ```
 ...and make a personal analysis folder. For example:
 
@@ -67,7 +67,54 @@ Let's run the program now. Since, we all are sharing the same computing resource
 fastqc <your subset>
 ```
 
-This program outputs results in`.zip and .html formats. We can't inspect them on Sphinx, so we'll need to copy them to our own devices.
+This program outputs results in `.zip` and `.html` formats. We can't inspect them on Sphinx, so we'll need to copy them to our own devices.
 ```bash
-scp <your_username>@sphinx.ag.utk.edu:/pickett_shared/teaching/EPP622_Fall2022/analysis/<your_username>/1_fastqc/\*html .
+scp <your_username>@sphinx.ag.utk.edu:/pickett_sphinx/teaching/EPP622_2024/analyses/<your_username>/1_fastqc/\*html .
+```
+
+## 4. Running Skewer
+[skewer github](https://github.com/relipmoc/skewer)
+
+Skewer is a fast and accurate adapter trimmer for next-generation sequencing paired-end reads. It has several features such as detecting and removing adapter sequences, trimming sequences based on phred quality scores etc. Now, go to your personal analyses directory and make a new directory -
+```bash
+cd /pickett_sphinx/teaching/EPP622_2024/analyses/<your name>
+mkdir 2_skewer
+cd 2_skewer
+```
+
+Soft link the raw data files here, too (the space is free!) 
+```bash
+ln -s ../../../raw_data/solenopsis_invicta/<your subset>.fastq .
+```
+
+Skewer is installed locally on sphinx therefore, we won't have to use Spack to load it this time.
+```bash
+/sphinx_local/software/skewer/skewer -t 2 -l 95 -x AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG -Q 30 <your subset> -o <outfile name>
+```
+
+`-t` stands for number of threads used by this command  
+`-l` stands for minimum length of sequence we want to keep in our analyses    
+`-Q` is the minimum mean quality score (Phred score) of the sequence (across the entire read length)
+
+**Note**: Here we use Q 30 as an illustrative example because the data is already very high quality. In some instances, Q 30 may be considered on the more strict end of trimming thresholds (see Del Fabbro et al. 2013).
+
+Say you wanted to trim all the files using a for loop. Here is an example of how to do that:
+```bash
+for f in *fastq
+do
+	BASE=$( basename $f | sed 's/.fastq//g')
+	echo $BASE
+
+	/sphinx_local/software/skewer/skewer \
+	-t 2 -l 95 -Q 30 \
+	-x AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG \
+	$f -o $BASE 
+done
+```
+
+## 5. Run fastqc on trimmed files
+
+Now that we have trimmed our sequence file, let's check it's quality using fastqc. So, go back to your personal directory and make a new directory -
+```bash
+fastqc <your subset>-trimmed.fastq
 ```

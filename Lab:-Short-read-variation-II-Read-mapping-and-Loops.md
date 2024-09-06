@@ -40,3 +40,29 @@ ln -s ../2_skewer/<your_assigned_read_set>-trimmed.fastq .
 ```
 
 Now, we are almost ready! Load `bwa` and `samtools` using `spack`. The output of your `bwa` run is a SAM file and we will need to convert it to a BAM file. Using the fancy `|` notation we learned in the Software Carpentry lessons, we can combine these commands to save time.
+
+```bash
+spack load bwa
+spack load samtools@1.9%gcc@8.4.1
+
+bwa mem -t 3 \
+solenopsis_genome_index/solenopsis_invicta_genome.fa.gz \
+<your_assigned_read_set>-trimmed.fastq \
+| samtools view -bSh \
+| samtools sort \
+-@ 3 -m 4G \
+-o <your_assigned_read_set>_sorted.bam 
+```
+* `-t` is used to specify the number of threads to run the job (bwa) 
+* `samtools view -bSh` is used to convert the output from a SAM file to a BAM file with a header 
+* `-@` and `-m` designates the number of threads to run the job and memory per thread (samtools)
+
+Once the command stops running, you can extract stats from your sorted.bam file using `samtools flagstat` and output to a separate file.
+
+```bash
+samtools flagstat <your_assigned_read_set>_sorted.bam > <your_assigned_read_set>_sorted.stats
+```
+
+Open up your `sorted.stats` file using `cat` to view various statistics. You may notice the % of reads mapped, and this value may be very high (>99% reads mapped). However, the percentage is wrong because `bwa` only counts reads that map to the reference as input reads. 
+
+To rectify this, we can use the `bc` calculator tool to calculate the total number of reads from our assigned fastq file, and use this as the denominator to calculate the correct % for mapped reads.

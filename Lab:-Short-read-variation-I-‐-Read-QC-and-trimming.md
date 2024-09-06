@@ -53,7 +53,7 @@ cd 1_fastqc
 
 We can create a soft link (symbolic link) to the raw data
 ```
-ln -s ../../../raw_data/solenopsis_invicta/<your subset>.fastq .
+ln -s ../../raw_data/solenopsis_invicta/<your subset>.fastq .
 ```
 
 Let's load fastqc:

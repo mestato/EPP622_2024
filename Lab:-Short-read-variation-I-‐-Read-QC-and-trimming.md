@@ -33,7 +33,7 @@ Please view the below table, as every student has been assigned a read for the d
 ## 2. Setting up a personal directory
 Go to the analysis directory within the EPP 622 course directory:
 ```bash
-/pickett_shared/teaching/EPP622_Fall2024/analysis
+/pickett_shared/teaching/EPP622_2024/analysis
 ```
 ...and make a personal analysis folder. For example:
 

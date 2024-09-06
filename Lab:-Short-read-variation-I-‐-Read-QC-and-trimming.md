@@ -115,5 +115,5 @@ done
 
 Now that we have trimmed our sequence file, let's check it's quality using fastqc. Since, we already have the `fastqc` loaded using Spack we don't have to do that again.
 ```bash
-fastqc <your subset>_trimmed.fastq
+fastqc <your subset>-trimmed.fastq
 ```

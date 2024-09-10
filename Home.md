@@ -151,10 +151,14 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 
 ### Class 7. Tuesday September 10 - Loops, Read QC and trimming
 * In person and recorded.
+* [Slides](https://docs.google.com/presentation/d/1bsWqlUG8I8OXatGz49d3zsKJJzSJ47YbFsC0ahNPzEs/edit#slide=id.g2fdd507d6a1_0_355)
 * [Lab - For Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
 * [Lab - Read QC and trimming](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-I-%E2%80%90-Read-QC-and-trimming)
+* Suggested Reading/Viewing
+  * Stoler and Nekrutenko 2021 [Sequencing error profiles of Illumina sequencing instruments](https://academic.oup.com/nargab/article/3/1/lqab019/6193612)
+  * Video [Intro to Sequencing by Synthesis](https://www.youtube.com/watch?v=fCd6B5HRaZ8) - From Illumina
+
 
 ### Class 8. Thursday September 12 - Read mapping
 * In person and recorded.
 * [Lab - Read mapping](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-II-Read-mapping-and-Loops)
-

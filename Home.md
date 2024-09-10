@@ -158,6 +158,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 * Suggested Reading/Viewing
   * Stoler and Nekrutenko 2021 [Sequencing error profiles of Illumina sequencing instruments](https://academic.oup.com/nargab/article/3/1/lqab019/6193612)
   * Video [Intro to Sequencing by Synthesis](https://www.youtube.com/watch?v=fCd6B5HRaZ8) - From Illumina
+* [Class 7 Recording](https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3d4c817e-189a-44e6-a1d8-b1e7014eaaf1)
 
 
 ### Class 8. Thursday September 12 - Read mapping

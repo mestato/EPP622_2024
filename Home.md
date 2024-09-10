@@ -152,6 +152,7 @@ wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
 ### Class 7. Tuesday September 10 - Loops, Read QC and trimming
 * In person and recorded.
 * [Slides](https://docs.google.com/presentation/d/1bsWqlUG8I8OXatGz49d3zsKJJzSJ47YbFsC0ahNPzEs/edit#slide=id.g2fdd507d6a1_0_355)
+* [For Loop Anatomy](https://docs.google.com/presentation/d/1q2tfGsw-rDijGA9ziXc8mp1meoUJyHwN/edit?usp=share_link&ouid=105960712942671410972&rtpof=true&sd=true)
 * [Lab - For Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
 * [Lab - Read QC and trimming](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-I-%E2%80%90-Read-QC-and-trimming)
 * Suggested Reading/Viewing

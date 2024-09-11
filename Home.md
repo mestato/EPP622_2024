@@ -73,6 +73,8 @@ Visit our [Bioinformatics Symposium (2024) webpage](https://oit.utk.edu/hpsc/bio
 
 ## Full Schedule
 
+[[Classes 1-6]] - Intro to command line
+
 ### Class 1. Tuesday August 20 - Command Line I
 * In person and recorded.
 * Bioinformatics - what is it and where did it come from? [Slides](https://docs.google.com/presentation/d/1sgBG19exSznuIj0HNufhdBB-A_SvysKIlbnXWsknYcg/edit#slide=id.p)

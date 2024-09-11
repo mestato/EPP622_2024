@@ -57,7 +57,6 @@ ssh username@sphinx.ag.utk.edu
 * [Slides](https://docs.google.com/presentation/d/1bsWqlUG8I8OXatGz49d3zsKJJzSJ47YbFsC0ahNPzEs/edit#slide=id.g2fdd507d6a1_0_355)
 * [For Loop Anatomy](https://docs.google.com/presentation/d/1q2tfGsw-rDijGA9ziXc8mp1meoUJyHwN/edit?usp=share_link&ouid=105960712942671410972&rtpof=true&sd=true)
 * [Lab - For Loops](https://swcarpentry.github.io/shell-novice/05-loop.html)
-* [Lab - Read QC and trimming](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-I-%E2%80%90-Read-QC-and-trimming)
 * Suggested Reading/Viewing
   * Stoler and Nekrutenko 2021 [Sequencing error profiles of Illumina sequencing instruments](https://academic.oup.com/nargab/article/3/1/lqab019/6193612)
   * Video [Intro to Sequencing by Synthesis](https://www.youtube.com/watch?v=fCd6B5HRaZ8) - From Illumina
@@ -66,4 +65,7 @@ ssh username@sphinx.ag.utk.edu
 
 ### Class 8. Thursday September 12 - Read mapping
 * In person and recorded.
+* [Slides](https://docs.google.com/presentation/d/1yudck9OB-04D8aGgRJEYsxPIZTobkuoPPT7NlIxcVyg/edit#slide=id.g155eaffb84a_0_694) - Read Mapping and secure copy
+* [Video of lecture](https://utk.instructuremedia.com/embed/ac589b1f-82a1-481a-9239-23a30e1555c6) - Because we are a bit behind on the labs, we'll do lab only in class. Please plan to review the slides and watch the lecture.
+* [Lab - Read QC and trimming](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-I-%E2%80%90-Read-QC-and-trimming)
 * [Lab - Read mapping](https://github.com/mestato/EPP622_2024/wiki/Lab:-Short-read-variation-II-Read-mapping-and-Loops)

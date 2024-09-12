@@ -88,7 +88,12 @@ ln -s ../../../raw_data/solenopsis_invicta/<your subset>.fastq .
 
 Skewer is installed locally on sphinx therefore, we won't have to use Spack to load it this time.
 ```bash
-/sphinx_local/software/skewer/skewer -t 2 -l 95 -x AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG -Q 30 <your subset> -o <outfile name>
+/sphinx_local/software/skewer/skewer \
+    -t 2 \
+    -l 95 \
+    -x AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG \
+    -Q 30 <your subset> \
+    -o <outfile name>
 ```
 
 `-t` stands for number of threads used by this command  

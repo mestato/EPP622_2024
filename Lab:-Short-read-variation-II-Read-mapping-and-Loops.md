@@ -103,7 +103,7 @@ Change into your personal working directory and copy this new directory into it.
 
 ```bash
 cd /pickett_sphinx/teaching/EPP622_2024/analyses/<your_utk_username>
-cp -r /pickett_sphinx/teaching/EPP622_2024/bkapoor/for_loop_exercise .
+cp -r /pickett_sphinx/teaching/EPP622_2024/analyses/bkapoor/for_loop_exercise .
 ```
 First, let's run for loop on single end files. Change into the `single_end` folder and start writing the script using `nano`. Name it whatever you want, but make sure it's relevant to your task and it ends in `.sh`. Here is what I named mine:
 
